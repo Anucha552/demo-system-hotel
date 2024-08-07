@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+td, th {
+    border: 1px solid #aeaeae;
+    text-align: left;
+    padding: 8px 15px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.center-t {
+    text-align: center;
+}
+
+.view-bookings {
+    text-decoration: none;
+    color: blue;
+}
+
+.view-bookings:hover {
+    text-decoration: underline;
+}
+
+.button-correct {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    background-color: #ff66ff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button-correct:hover {
+    background-color: #e600e6;
+}
+
+.cancel-book {
+    text-decoration: none;
+    color: blue;
+}
+
+.cancel-book:hover {
+    text-decoration: underline;
+}

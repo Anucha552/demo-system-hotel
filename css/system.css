@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-nav-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3366ff;
+    color: white;
+    height: 100%;
+}
+
+.box-icon, .box-status {
+    padding: 20px 70px 20px 70px;
+}
+
+.box-status {
+    text-align: center;
+}
+
+.text-status {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.container-content {
+    margin-left: 250px;
+    padding: 20px 20px 20px 40px;
+}
+
+.icon {
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+nav {
+    overflow: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    background-color: #0130bd;
+}
+
+.container-content .box-content header {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container-content .box-content section {
+    padding: 15px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cancel-delete-account {
+    text-decoration: none;
+    color: #8cff66;
+} 
+
+.cancel-delete-account:hover {
+    text-decoration: underline;
+}
+
+.box-alert-data {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 26, 0.6);
+    text-align: center;
+    align-content: center;
+}
+
+.box-text-alert-data {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.box-name-content {
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin-top: 20px;
+}
+
+.box-name-content h2 {
+    margin: 0;
+}

@@ -1,0 +1,138 @@
+.box-icon2 , .box-upload-image {
+    display: inline-block;
+}
+
+.box-upload-image .button-upload {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ff66ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.box-upload-image .button-upload:hover {
+    background-color: #e600e6;
+}
+
+.box-icon-user {
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+    text-align: left;
+}
+
+.box-upload-image {
+    position: absolute;
+    left: 250px;
+    top: 35px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.content {
+    width: 100%;
+}
+
+.box-icon2 {
+    padding-left: 60px;
+}
+
+.box-submid {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.button-correct, .delete-account {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    background-color: #ff66ff;
+    color: white;
+    font-weight: bold;
+}
+
+.button-correct:hover {
+    background-color: #e600e6;
+}
+
+.button-cancel, .delete-account {
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.box-buttom-correct {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.input-text {
+    padding: 0 10px;
+    width: 300px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.box-delete-account {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.delete-account {
+    padding: 30px 20px;
+    font-size: 1.8em;
+    background-color: #ff8080;
+}
+
+.delete-account:hover {
+    background-color: #ff1a1a;
+}
+
+#IMGProfile, .box-alert-error {
+    font-size: 0.7em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.box-alert-error {
+    text-align: center;
+}
+
+#submit-alert-data, .submit-cancel {
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: #ff33ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-alert-data:hover, .submit-cancel:hover {
+    background-color: #b300b3;
+}
+
+.submit-cancel {
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+}

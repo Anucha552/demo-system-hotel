@@ -1,0 +1,114 @@
+.container-hotel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.image-hotel {
+    width: 100%;
+}
+
+.box-image-hotel {
+    overflow: hidden;
+    height: 350px;
+}
+
+.container-hotel h2 , .container-hotel p {
+    color: black;
+    text-align: left;
+}
+
+.container-hotel h2{
+    margin: 0;
+}
+
+.button-ook-hotel {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #ff66ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.button-ook-hotel:hover {
+    background-color: #e600e6;
+}
+
+.box-button-hotel-1, .box-button-hotel-2 {
+    margin-bottom: 70px;
+}
+
+.header-hotel {
+    padding: 15px 0;
+}
+
+.box-text-alert-data {
+    text-align: left;
+}
+
+.box-text-alert-data {
+    font-size: 1.5em;
+}
+
+#BookingDate { 
+    font-size: 0.8em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#HowManyNights {
+    padding: 5px;
+    font-size: 0.7em;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#BookRoom, .submit-cancel {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #ff66ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#BookRoom:hover, .submit-cancel:hover {
+    background-color: #e600e6;
+}
+
+.submit-cancel {
+    text-decoration: none;
+    padding-top: 8px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.box-BookRoom {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box-ok {
+    text-align: center;
+}
+
+.button-ok {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #ff66ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.button-ok:hover {
+    background-color: #e600e6;
+}

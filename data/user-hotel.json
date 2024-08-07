@@ -1,0 +1,75 @@
+[
+    {
+        "ID": 0,
+        "status": "ADMIN",
+        "profileImage": "image\/imgUser\/19128.jpg",
+        "creationDate": "2024\/07\/30",
+        "prefix": "\u0e19\u0e32\u0e22",
+        "firstName": "Anucha",
+        "surName": "Khemthong",
+        "tel": "0811111111",
+        "email": "anuchahaha5@gmail.com",
+        "passworld": "21232f297a57a5a743894a0e4a801fc3",
+        "bookHotel": [],
+        "deleteAccount": {
+            "status": false,
+            "date": "",
+            "left": "15"
+        }
+    },
+    {
+        "ID": 1,
+        "status": "USER",
+        "profileImage": "image\/icon\/profile.png",
+        "creationDate": "2024\/07\/30",
+        "prefix": "\u0e19\u0e32\u0e22",
+        "firstName": "user1",
+        "surName": "demo",
+        "tel": "0822222222",
+        "email": "user1@gmail.com",
+        "passworld": "24c9e15e52afc47c225b757e7bee1f9d",
+        "bookHotel": [
+            {
+                "nameHotel": "The Urban Condo in Central Pattaya",
+                "BookingDate": "2024-08-04",
+                "HowManyNights": "3",
+                "SingleBedWithFan": "SingleBedWithFan",
+                "DoubleBedWithFan": "",
+                "SingleBedWithAirConditioning": "SingleBedWithAirConditioning",
+                "DoubleBedWithAirConditioning": ""
+            },
+            {
+                "nameHotel": "SN Plus Hotel - SHA Plus",
+                "BookingDate": "2024-08-11",
+                "HowManyNights": "1",
+                "SingleBedWithFan": "",
+                "DoubleBedWithFan": "",
+                "SingleBedWithAirConditioning": "",
+                "DoubleBedWithAirConditioning": "DoubleBedWithAirConditioning"
+            }
+        ],
+        "deleteAccount": {
+            "status": true,
+            "date": "2024\/07\/30",
+            "left": "15"
+        }
+    },
+    {
+        "ID": 2,
+        "status": "USER",
+        "profileImage": "image\/icon\/profile.png",
+        "creationDate": "2024\/07\/30",
+        "prefix": "\u0e19.\u0e2a.",
+        "firstName": "user2",
+        "surName": "demo",
+        "tel": "0833333333",
+        "email": "user2@gmail.com",
+        "passworld": "7e58d63b60197ceb55a1c487989a3720",
+        "bookHotel": [],
+        "deleteAccount": {
+            "status": false,
+            "date": "",
+            "left": 15
+        }
+    }
+]
